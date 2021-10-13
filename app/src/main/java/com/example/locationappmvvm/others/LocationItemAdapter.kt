@@ -25,8 +25,8 @@ class LocationItemAdapter(var item : List<Location_item>  , private val viewMode
 
     override fun onBindViewHolder(holder: LocationViewHolder, position: Int) {
         val currentItem = item[position]
-        holder.longitudeIs.text=  currentItem.longitudeIs.toString()
-        holder.latitudeIs.text = currentItem.latitudeIs.toString()
+        holder.longitudeIs.text=  currentItem.longitudeIs
+        holder.latitudeIs.text = currentItem.latitudeIs
         holder.addressIs.text  = currentItem.addressIs
     }
 

@@ -8,6 +8,4 @@ class Find_Current_Location(context: Context) {
 
     }
 
-
-
 }
